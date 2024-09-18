@@ -1,3 +1,0 @@
-/home/mvasquezr/DatosII/Algorithm-analysis/cmake-build-debug/CMakeFiles/Algorithm_analysis.dir
-/home/mvasquezr/DatosII/Algorithm-analysis/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/mvasquezr/DatosII/Algorithm-analysis/cmake-build-debug/CMakeFiles/rebuild_cache.dir

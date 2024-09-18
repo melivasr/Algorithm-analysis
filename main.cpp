@@ -1,28 +1,42 @@
 #include <iostream>
 #include <vector>
+#include <QApplication>
 #include "../Algorithm-analysis/headers/SortAlgorithms.h"
 #include "../Algorithm-analysis/headers/LinkedList.h"
 #include "../Algorithm-analysis/headers/Benchmark.h"
+#include "../Algorithm-analysis/GraphPlotter.h"
+#include "headers/TestDataGenerator.h"
 
-int main() {
-    // Ejemplo de medición para BubbleSort
-    std::vector<int> arr = {64, 34, 25, 12, 22, 11, 90};
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
 
-    long long time = Benchmark::measureExecutionTime([&]() {
-        SortAlgorithms::bubbleSort(arr);
-    });
+    const int N = 1000;
+    std::vector<int> valuesN = {100, 200, 400, 800, 1000};  // Ejemplo de tamaños N
+    std::vector<long long> empiricalData;
+    std::vector<long long> theoreticalData;
 
-    std::cout << "BubbleSort execution time: " << time << " nanoseconds\n";
+    for (int n : valuesN) {
+        // Generar los datos de prueba
+        std::vector<int> testData = TestDataGenerator::generateAverageCase(n);
 
-    // Ejemplo de uso de LinkedList
-    LinkedList list;
-    list.insert(5);
-    list.insert(10);
-    list.insert(15);
-    list.display();
+        // Medir el tiempo empírico para BubbleSort
+        long long empiricalTime = Benchmark::measureExecutionTime([&]() {
+            SortAlgorithms::bubbleSort(testData);
+        });
 
-    // Ejemplo de búsqueda en LinkedList
-    std::cout << "Search for 10: " << (list.search(10) ? "Found" : "Not Found") << "\n";
+        // Complejidad teórica O(n^2) para BubbleSort
+        long long theoreticalTime = n * n;  // Aproximación teórica
 
-    return 0;
+        empiricalData.push_back(empiricalTime);
+        theoreticalData.push_back(theoreticalTime);
+    }
+
+    // Crear la ventana de la gráfica
+    GraphPlotter chartPlotter;
+    chartPlotter.plotGraph(empiricalData, theoreticalData, valuesN);
+
+    chartPlotter.resize(800, 600);
+    chartPlotter.show();
+
+    return app.exec();
 }
