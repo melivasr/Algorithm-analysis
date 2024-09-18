@@ -14,7 +14,7 @@ public:
     ~BinarySearchTree();
 
     void insert(int data);
-    bool search(int data) const;  // Cambié aquí para que coincida con la definición
+    bool search(int data) const;
     void inorder() const;
 
 private:

@@ -105,6 +105,14 @@ build CMakeFiles/Algorithm_analysis.dir/GraphPlotter.cpp.o: CXX_COMPILER__Algori
   OBJECT_DIR = CMakeFiles/Algorithm_analysis.dir
   OBJECT_FILE_DIR = CMakeFiles/Algorithm_analysis.dir
 
+build CMakeFiles/Algorithm_analysis.dir/MultiGraphPlotter.cpp.o: CXX_COMPILER__Algorithm_analysis_unscanned_Debug /home/mvasquezr/DatosII/Algorithm-analysis/MultiGraphPlotter.cpp || cmake_object_order_depends_target_Algorithm_analysis
+  DEFINES = -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Algorithm_analysis.dir/MultiGraphPlotter.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -fPIC
+  INCLUDES = -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtCharts
+  OBJECT_DIR = CMakeFiles/Algorithm_analysis.dir
+  OBJECT_FILE_DIR = CMakeFiles/Algorithm_analysis.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Algorithm_analysis
@@ -113,7 +121,7 @@ build CMakeFiles/Algorithm_analysis.dir/GraphPlotter.cpp.o: CXX_COMPILER__Algori
 #############################################
 # Link the executable Algorithm_analysis
 
-build Algorithm_analysis: CXX_EXECUTABLE_LINKER__Algorithm_analysis_Debug CMakeFiles/Algorithm_analysis.dir/main.cpp.o CMakeFiles/Algorithm_analysis.dir/source/SortAlgorithms.cpp.o CMakeFiles/Algorithm_analysis.dir/source/LinkedList.cpp.o CMakeFiles/Algorithm_analysis.dir/source/Benchmark.cpp.o CMakeFiles/Algorithm_analysis.dir/source/BinarySearchTree.cpp.o CMakeFiles/Algorithm_analysis.dir/source/TestDataGenerator.cpp.o CMakeFiles/Algorithm_analysis.dir/GraphPlotter.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
+build Algorithm_analysis: CXX_EXECUTABLE_LINKER__Algorithm_analysis_Debug CMakeFiles/Algorithm_analysis.dir/main.cpp.o CMakeFiles/Algorithm_analysis.dir/source/SortAlgorithms.cpp.o CMakeFiles/Algorithm_analysis.dir/source/LinkedList.cpp.o CMakeFiles/Algorithm_analysis.dir/source/Benchmark.cpp.o CMakeFiles/Algorithm_analysis.dir/source/BinarySearchTree.cpp.o CMakeFiles/Algorithm_analysis.dir/source/TestDataGenerator.cpp.o CMakeFiles/Algorithm_analysis.dir/GraphPlotter.cpp.o CMakeFiles/Algorithm_analysis.dir/MultiGraphPlotter.cpp.o | /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
   OBJECT_DIR = CMakeFiles/Algorithm_analysis.dir

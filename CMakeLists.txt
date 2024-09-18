@@ -30,7 +30,9 @@ add_executable(Algorithm_analysis main.cpp
         source/TestDataGenerator.cpp
         headers/TestDataGenerator.h
         GraphPlotter.cpp
-        GraphPlotter.h)
+        GraphPlotter.h
+        MultiGraphPlotter.cpp
+        MultiGraphPlotter.h)
 
 # Especificar que el proyecto usa las bibliotecas de Qt5
 target_link_libraries(Algorithm_analysis Qt5::Widgets Qt5::Charts)
