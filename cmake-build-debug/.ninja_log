@@ -1,0 +1,9 @@
+# ninja log v6
+1	85	1726633225578522357	build.ninja	3c36e252238ef27c
+2	1073	1726633225602523541	CMakeFiles/Algorithm_analysis.dir/source/SortAlgorithms.cpp.o	810973b30a52c17d
+3	1734	1726633225603523590	CMakeFiles/Algorithm_analysis.dir/source/LinkedList.cpp.o	c523e6c6548b0c95
+4	1856	1726633225605523689	CMakeFiles/Algorithm_analysis.dir/source/Benchmark.cpp.o	68568c3062fe8b9
+1	2696	1726633225601523492	CMakeFiles/Algorithm_analysis.dir/main.cpp.o	a55be96bd9c66cdf
+2696	2898	1726633228296656477	Algorithm_analysis	d990903c0aad8c7
+4	1342	1726633526940588784	CMakeFiles/Algorithm_analysis.dir/source/Benchmark.cpp.o	68568c3062fe8b9
+1342	1586	1726633528278656280	Algorithm_analysis	d990903c0aad8c7
