@@ -1,0 +1,17 @@
+# ninja log v6
+17	1170	1726658014812428585	CMakeFiles/Algorithm_analysis.dir/source/BinarySearchTree.cpp.o	40c3226a78464ed4
+14	1171	1726658014809428753	CMakeFiles/Algorithm_analysis.dir/source/SortAlgorithms.cpp.o	8c6dd70c08a1173a
+15	1170	1726658014810428697	CMakeFiles/Algorithm_analysis.dir/source/LinkedList.cpp.o	96f02173ebd4d084
+16	1171	1726658014811428641	CMakeFiles/Algorithm_analysis.dir/source/Benchmark.cpp.o	8ba3267b8f8ae4fc
+18	1185	1726658014813428529	CMakeFiles/Algorithm_analysis.dir/source/TestDataGenerator.cpp.o	2be3fccc1005dd20
+8	2027	1726661279163507412	CMakeFiles/Algorithm_analysis.dir/GraphPlotter.cpp.o	d6f987b9ebe9d578
+4	1085	1726658963892480476	CMakeFiles/Algorithm_analysis.dir/main.cpp.o	98190e32c9543da3
+2028	2292	1726661281183157566	Algorithm_analysis	7bb05b9ec1dafa43
+28	282	1726666103162889564	CMakeFiles/Algorithm_analysis.dir/source/SortAlgorithms.cpp.o	26306c67191b92a9
+28	474	1726666103162889564	CMakeFiles/Algorithm_analysis.dir/source/LinkedList.cpp.o	4097e160302f1285
+29	572	1726666103163889608	CMakeFiles/Algorithm_analysis.dir/source/BinarySearchTree.cpp.o	8daccd31bf4ca623
+28	576	1726666103162889564	CMakeFiles/Algorithm_analysis.dir/source/Benchmark.cpp.o	8112499ec4bf0ceb
+29	761	1726666103163889608	CMakeFiles/Algorithm_analysis.dir/source/TestDataGenerator.cpp.o	9374c1e0d8da5a0e
+282	2066	1726666103416900862	CMakeFiles/Algorithm_analysis.dir/GraphPlotter.cpp.o	efb9812b64e7f513
+28	2073	1726666103162889564	CMakeFiles/Algorithm_analysis.dir/main.cpp.o	d3e64af94f3d1715
+2073	2488	1726666105207980533	Algorithm_analysis	23b16437608ea925
