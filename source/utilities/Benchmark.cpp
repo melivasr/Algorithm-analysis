@@ -1,4 +1,3 @@
-
 #include "../../headers/Benchmark.h"
 #include <chrono>
 #include <cmath>

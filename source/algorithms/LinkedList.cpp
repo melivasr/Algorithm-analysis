@@ -16,9 +16,8 @@ LinkedList::~LinkedList() {
 
 // Inserta un nodo de forma ordenada en la lista
 void LinkedList::insert(int data) {
-    Node* newNode = new Node(data); // Crear un nuevo nodo
+    Node* newNode = new Node(data);
 
-    // Si la lista está vacía o el nuevo valor debe ser el primero
     if (head == nullptr || head->data >= data) {
         newNode->next = head;
         head = newNode;

@@ -49,7 +49,7 @@ void MultiGraphPlotter::addGraph(const QString& caseName, const std::vector<long
     // Factor de escala predeterminado
     double scalingFactor = 5.0;
 
-    // Aplicar el factor de escala solo a los teóricos si es necesario
+    // Llenar series con datos empíricos y teóricos
     for (size_t i = 0; i < valuesN.size(); ++i) {
         empiricalSeries->append(valuesN[i], empiricalData[i]);
         theoreticalSeries->append(valuesN[i], theoreticalData[i] * scalingFactor);

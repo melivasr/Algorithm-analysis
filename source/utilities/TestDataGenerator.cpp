@@ -1,6 +1,5 @@
 #include "../../headers/TestDataGenerator.h"
 #include "../../headers/Benchmark.h"
-#include <algorithm>
 #include <random>
 
 // Peor caso: los datos están en orden descendente
