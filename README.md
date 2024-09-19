@@ -1,6 +1,6 @@
 # Proyecto de Análisis de Algoritmos
 
-Este proyecto analiza los tiempos de ejecución empíricos y teóricos de algoritmos de ordenamiento y operaciones en estructuras de datos. Visualiza el rendimiento utilizando gráficas para comparar las complejidades de peor, mejor y caso promedio para cada algoritmo.
+Este proyecto analiza los tiempos de ejecución empíricos y teóricos de algoritmos de ordenamiento y operaciones en estructuras de datos. 
 
 ## Tabla de Contenidos
 
