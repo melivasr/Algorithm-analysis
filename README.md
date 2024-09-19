@@ -13,7 +13,7 @@ Este proyecto analiza los tiempos de ejecución empíricos y teóricos de algori
 
 ## Descripción del Proyecto
 
-Este proyecto implementa y evalúa varios algoritmos, incluyendo algoritmos de ordenamiento (Bubble Sort, Selection Sort, Merge Sort) y operaciones en estructuras de datos como LinkedList y BinarySearchTree. Los algoritmos se prueban bajo diferentes casos (peor, mejor y promedio) y se comparan sus tiempos de ejecución con las complejidades teóricas. Los resultados se muestran en gráficos.
+Se implementan y evalúan varios algoritmos, incluyendo algoritmos de ordenamiento (Bubble Sort, Selection Sort, Merge Sort) y operaciones en estructuras de datos como LinkedList y BinarySearchTree. Los algoritmos se prueban bajo diferentes casos (peor, mejor y promedio) y se comparan sus tiempos de ejecución con las complejidades teóricas. Los resultados se muestran en gráficos.
 
 La siguiente tabla presenta las complejidades teóricas de los algoritmos:
 
