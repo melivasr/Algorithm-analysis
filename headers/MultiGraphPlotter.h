@@ -10,15 +10,16 @@ QT_CHARTS_USE_NAMESPACE
 
 class MultiGraphPlotter : public QWidget {
 public:
-    MultiGraphPlotter(QWidget *parent = nullptr);
+    MultiGraphPlotter(const QString& algorithmName, QWidget *parent = nullptr);
 
-    // Función que acepta el nombre del algoritmo y la complejidad teórica
-    void addGraph(const QString& algorithmName, const std::vector<long long>& empiricalData,
+    void addGraph(const QString& caseName, const std::vector<long long>& empiricalData,
                   const std::vector<long long>& theoreticalData, const std::vector<int>& valuesN,
                   const QString& theoreticalComplexity, int row, int col);
 
 private:
-    QGridLayout *mainLayout;  // Disposición en cuadrícula para contener gráficos y etiquetas
+    QGridLayout *mainLayout;
+    void createExitButton(QVBoxLayout *layout);
+    void addAlgorithmTitle(QVBoxLayout *layout, const QString& algorithmName);
 };
 
 #endif // MULTIGRAPHPLOTTER_H
