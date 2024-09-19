@@ -8,8 +8,6 @@ Este proyecto analiza los tiempos de ejecución empíricos y teóricos de algori
 - [Características](#características)
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Algoritmos](#algoritmos)
-- [Consideraciones](#consideraciones)
 
 ## Descripción del Proyecto
 
@@ -30,9 +28,9 @@ La siguiente tabla presenta las complejidades teóricas de los algoritmos:
 
 - **Algoritmos de Ordenamiento:** Bubble Sort, Selection Sort, Merge Sort.
 - **Estructuras de Datos:** LinkedList Search, BinarySearchTree Insert
-- **Medición de Tiempos Empíricos:** Mide los tiempos reales de ejecución utilizando datos reales.
+- **Medición de Tiempos Empíricos:** Mide los tiempos reales de ejecución.
 - **Cálculo de Tiempos Teóricos:** Compara los tiempos empíricos con las complejidades teóricas.
-- **Visualización de Gráficas:** Muestra los tiempos empíricos y teóricos en gráficos interactivos.
+- **Visualización de Gráficas:** Muestra los tiempos empíricos y teóricos en los gráficos.
 
 ## Instalación
 
