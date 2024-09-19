@@ -54,8 +54,8 @@ Asegúrate de tener instalados los siguientes componentes:
 2. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/melivasr/Algorithm_analysis.git
-    cd Algorithm_analysis
+    git clone https://github.com/melivasr/Algorithm-analysis.git
+    cd Algorithm-analysis
     ```
 
 3. Compila el proyecto usando CMake:
