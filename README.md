@@ -13,7 +13,18 @@ Este proyecto analiza los tiempos de ejecución empíricos y teóricos de algori
 
 ## Descripción del Proyecto
 
-Este proyecto implementa y evalúa varios algoritmos, incluyendo algoritmos de ordenamiento (Bubble Sort, Selection Sort, Merge Sort) y operaciones en estructuras de datos como LinkedList y Árboles BinarySearchTree. Los algoritmos se prueban bajo diferentes casos (peor, mejor y promedio) y se comparan sus tiempos de ejecución con las complejidades teóricas. Los resultados se muestran en gráficos interactivos.
+Este proyecto implementa y evalúa varios algoritmos, incluyendo algoritmos de ordenamiento (Bubble Sort, Selection Sort, Merge Sort) y operaciones en estructuras de datos como LinkedList y BinarySearchTree. Los algoritmos se prueban bajo diferentes casos (peor, mejor y promedio) y se comparan sus tiempos de ejecución con las complejidades teóricas. Los resultados se muestran en gráficos.
+
+La siguiente tabla presenta las complejidades teóricas de los algoritmos:
+
+| **Algoritmo**                 | **Peor Caso** | **Mejor Caso** | **Caso Promedio** |
+|-------------------------------|---------------|----------------|-------------------|
+| **Bubble Sort**                | O(n^2)        | O(n)           | O(n^2)            |
+| **Selection Sort**             | O(n^2)        | O(n^2)         | O(n^2)            |
+| **Merge Sort**                 | O(n log n)    | O(n log n)     | O(n log n)        |
+| **LinkedList (Search)**        | O(n)          | O(1)           | O(n)              |
+| **Binary Search Tree (Insert)**| O(n)          | O(log n)       | O(log n)          |
+
 
 ## Características
 
@@ -58,7 +69,7 @@ Asegúrate de tener instalados los siguientes componentes:
     make
     ```
 
-4. Ejecuta el ejecutable:
+4. Ejecuta lo siguiente en la terminal del IDE:
 
     ```bash
     ./Algorithm_analysis <algoritmo>
@@ -73,7 +84,7 @@ Asegúrate de tener instalados los siguientes componentes:
 
 ### Instalación en Windows
 
-Este proyecto fue desarrollado y probado en Linux (Ubuntu), por lo que pueden existir variaciones en su comportamiento al ejecutarse en Windows. Si deseas ejecutarlo en Windows, asegúrate de instalar las bibliotecas de Qt5 compatibles y un compilador adecuado. Puedes usar herramientas como **WSL (Windows Subsystem for Linux)** para emular un entorno de Linux en tu sistema Windows.
+Este proyecto fue desarrollado y probado utilizando Clion en Linux (Ubuntu), por lo que pueden existir variaciones en su comportamiento al ejecutarse en Windows. Si deseas ejecutarlo en Windows, asegúrate de instalar las bibliotecas de Qt5 compatibles y un compilador adecuado. Puedes usar herramientas como **WSL (Windows Subsystem for Linux)** para emular un entorno de Linux en tu sistema Windows.
 
 ## Uso
 
